@@ -1,0 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-family: Montserrat; sans-serif;
+    color: #717D7E;
+
+}
