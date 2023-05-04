@@ -3,7 +3,25 @@
 h1 {
     text-transform: uppercase;
     letter-spacing: 3px;
-    font-family: Montserrat; sans-serif;
+    font-family: Montserrat, sans-serif;
     color: #717D7E;
 
+}
+
+#logo {
+    float: left;
+    font-size: 150%;
+}
+
+#menu {
+    float: right;
+}
+
+#menu,
+#logo {
+    line-height: 80px;
+}
+
+body {
+    font-family: Montserrat, sans-serif;
 }
