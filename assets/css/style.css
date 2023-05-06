@@ -6,6 +6,7 @@
     border: none;
 }
 
+/*styling header and nav links*/
 
 h1 {
     text-transform: uppercase;
@@ -36,6 +37,8 @@ h1 {
     margin-right: 20px;
 }
 
+/* nav link styling */
+
 #menu a {
     text-decoration: none;
     color: inherit;
@@ -48,6 +51,38 @@ h1 {
 
 .active {
     border-bottom: 1px solid #717D7E
+}
+
+/* mindful way logo image insertion */
+
+#mindful-way-image {
+    height: 500px;
+    width: 100%;
+    background: url(../images/mindful-way-logo.jpg) center center;
+
+    /* applying animation to mindful way image*/
+    animation-name: image-zoom;
+    animation-duration: 5s;
+    animation-fill-mode: forwards;
+
+
+}
+
+/* creating rule for hero image zoom out once page is opened */
+@keyframes image-zoom {
+    from {
+        transform: scale(1);
+    }
+
+    to {
+        transform: scale(1.1);
+    }
+}
+
+#image-outer {
+    height: 500px;
+    width: 100%;
+    overflow: hidden;
 }
 
 body {
