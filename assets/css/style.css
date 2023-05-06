@@ -19,7 +19,7 @@ h2 {
 
 #logo {
     float: left;
-    font-size: 200%;
+    font-size: 250%;
     margin-left: 20px;
 }
 
@@ -185,6 +185,12 @@ footer {
 
 /* events image */
 
+#page-two {
+    margin: 15px;
+    border: 15px;
+}
+
+
 #events {
     background-image: url(../images/events-image.jpg);
     background-repeat: no-repeat;
@@ -192,4 +198,22 @@ footer {
     background-position: center;
     width: 100%;
     overflow: hidden;
+
+    color: #FCF6FC;
+}
+
+#events h2 {
+    color: #FCF6FC;
+}
+
+#events div {
+    margin: 10px;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.4);
+    letter-spacing: 3px;
+
+}
+
+#quote {
+    font-size: 150%;
 }
