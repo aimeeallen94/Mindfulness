@@ -182,3 +182,14 @@ footer {
     padding: 20px;
     color: #717D7E;
 }
+
+/* events image */
+
+#events {
+    background-image: url(../images/events-image.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    overflow: hidden;
+}
