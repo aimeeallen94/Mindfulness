@@ -151,3 +151,29 @@ body {
     flex-direction: row;
     justify-content: space-between;
 }
+/* styling footer and social media links */
+
+footer {
+    height: 200px;
+    margin: 15px;
+}
+
+#stay-connected {
+    text-align: center;
+    color: #717D7E;
+}
+    
+.social-media-links {
+    text-align: center;
+}
+
+.social-media-links > li {
+    display: inline;
+}
+
+.social-media-links i {
+    font-size: 200%;
+    margin: 20px;
+    padding: 20px;
+    color: #717D7E;
+}
