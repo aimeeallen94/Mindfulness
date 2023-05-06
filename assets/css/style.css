@@ -146,15 +146,20 @@ body {
 
 }
 
+#reasons-header {
+    border-bottom: solid 1px #717D7E;
+}
+
 .flex-container {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 /* styling footer and social media links */
 
 footer {
-    height: 200px;
+    height: 100px;
     margin: 15px;
 }
 
@@ -162,12 +167,12 @@ footer {
     text-align: center;
     color: #717D7E;
 }
-    
+
 .social-media-links {
     text-align: center;
 }
 
-.social-media-links > li {
+.social-media-links>li {
     display: inline;
 }
 
