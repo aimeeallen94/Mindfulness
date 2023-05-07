@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Website providing mindfulness courses, events and information based in Ireland">
+    <meta name="keyword" conent="mindfulness, meditation, mindfulness courses and events, ireland">
+
+    <title>The Mindful Way</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+
+<body>
+    <header>
+        <h1 id="logo">The Mindful Way</h1>
+        <nav id="menu">
+            <ul>
+                <li>
+                    <a href="signup.html" alt="link to sign up form" class="active">Sign Up</a>
+                </li>
+                <li>
+                    <a href="courses-events.html" alt="link to mindfuless courses and events" class="active">Courses &
+                        Events</a>
+                </li>
+                <li>
+                    <a href="index.html" alt="link to homepage" class="active">Home</a>
+                </li>
+            </ul>
+        </nav>
+    </header>
+
+
+    <section id="signup-form">
+        <form action="https://www.themindfulway.com/signup" method="post">
+            <label for="firstname">First Name:</label>
+            <input id="firstname" type="text" name="first-name" placeholder="Your First Name">
+
+            <label for="lastname">Last Name:</label>
+            <input id="lastname" type="text" name="last-name" placeholder="Your Last Name">
+
+            <label for="email">Email Address:</label>
+            <input id="email" type="email" name="email-address" placeholder="Your Email Address">
+
+            <label for="receive-daily-prompts">Are you happy to receive daily mindfulness prompts from us?</label>
+            <input type="checkbox" name="receive-daily-prompts" id="receive-daily-prompts" value="yes" checked>
+
+            <input type="radio" id="weekly-meetups" value="weekly-meetups" name="preferences">
+            <lablel for="weekly-meetups">Weekly Meetups</lablel>
+            <input type="radio" id="weekend-retreats" value="weekend-retreats" name="preferences">
+            <lablel for="weekend-retreats">Weekend Retreats</lablel>
+            <input type="radio" id="day-retreats" value="day-retreats" name="preferences">
+            <lablel for="day-retreats">One Day Retreats</lablel>
+
+
+            <textarea name="further-information" id="further-information" placeholder="Is there anything else
+                you would like to share with us" rows="20" cols="20"></textarea>
+
+
+        </form>
+    </section>
+
+    <footer>
+        <h3 id="stay-connected">Stay Connected With Us</h3>
+        <ul class="social-media-links">
+            <li>
+                <a href="http://www.twitter.com" aria-label="link to Twitter opening in new tab" target="_blank"
+                    rel="noopener">
+                    <i class="fa-brands fa-twitter"></i></a>
+            </li>
+            <li>
+                <a href="http://www.facebook.com" aria-label="link to Facebook opening in new tab" target="_blank"
+                    rel="noopener">
+                    <i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li>
+                <a href="http://www.instagram.com" aria-label="link to Instagram opening in new tab" target="_blank"
+                    rel="noopener">
+                    <i class="fa-brands fa-instagram"></i></a>
+            </li>
+        </ul>
+    </footer>
+    <!-- inserting font awesome script-->
+    <script src="https://kit.fontawesome.com/4fda016be7.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
