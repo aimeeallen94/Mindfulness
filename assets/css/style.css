@@ -298,23 +298,28 @@ footer {
     }
 
     .reasons-one {
+        width: 100%;
         padding: 0;
         flex: 100%;
     }
 
     .reasons-two {
+        width: 100%;
         clear: both;
+        float: left;
         padding: 0;
         flex: 100%;
     }
 
     .reasons-three {
+        width: 100%;
         clear: both;
         padding: 0;
-        flex: 100%;
+        flex-grow: 100%;
     }
 
     .reasons-four {
+        width: 100%;
         clear: both;
         padding: 0;
         flex: 100%;
@@ -327,6 +332,11 @@ footer {
 
     #video {
         text-align: center;
+    }
+
+    #form {
+        height: 700px;
+        font-size: 100%;
     }
 
 }
