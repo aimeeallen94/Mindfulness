@@ -173,6 +173,13 @@ body {
     justify-content: space-between;
 }
 
+.reasons-one,
+.reasons-two,
+.reasons-three,
+.reasons-four {
+    flex: 25%;
+}
+
 /* styling footer and social media links */
 
 footer {
@@ -274,4 +281,52 @@ footer {
     border: 1px solid #717D7E;
     display: block;
     padding: 10px 20px 10px 20px;
+}
+
+/* Media Queries */
+
+@media screen and (max-width: 1350px) {
+    #reasons {
+        width: 100%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    #practise-reasons-header {
+        padding: 30px 0;
+        margin: 0;
+    }
+
+    .reasons-one {
+        padding: 0;
+        flex: 100%;
+    }
+
+    .reasons-two {
+        clear: both;
+        padding: 0;
+        flex: 100%;
+    }
+
+    .reasons-three {
+        clear: both;
+        padding: 0;
+        flex: 100%;
+    }
+
+    .reasons-four {
+        clear: both;
+        padding: 0;
+        flex: 100%;
+    }
+
+    #video-header {
+        font-size: 80%;
+        text-align: center;
+    }
+
+    #video {
+        text-align: center;
+    }
+
 }
