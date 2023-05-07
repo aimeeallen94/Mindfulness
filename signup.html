@@ -33,31 +33,36 @@
 
 
     <section id="signup-form">
-        <form action="https://www.themindfulway.com/signup" method="post">
+        <form action="https://www.themindfulway.com/signup" method="post" id="form">
+            <h3>Sign up to receive our newsletter, some short meditation videos and information about our upcoming
+                events!<i class="far fa-home-heart"></i></h3>
             <label for="firstname">First Name:</label>
-            <input id="firstname" type="text" name="first-name" placeholder="Your First Name">
-
+            <input id="firstname" type="text" name="first-name" placeholder="Your First Name" class="input">
+            <br>
             <label for="lastname">Last Name:</label>
-            <input id="lastname" type="text" name="last-name" placeholder="Your Last Name">
-
+            <input id="lastname" type="text" name="last-name" placeholder="Your Last Name" class="input">
+            <br>
             <label for="email">Email Address:</label>
-            <input id="email" type="email" name="email-address" placeholder="Your Email Address">
-
+            <input id="email" type="email" name="email-address" placeholder="Your Email Address" class="input">
+            <br>
             <label for="receive-daily-prompts">Are you happy to receive daily mindfulness prompts from us?</label>
-            <input type="checkbox" name="receive-daily-prompts" id="receive-daily-prompts" value="yes" checked>
-
+            <label for="receive-daily-prompts">Yes</label>
+            <input type="radio" id="yes" value="no" name="receive-daily-prompts">
+            <label for="receive-daily-prompts">No</label>
+            <input type="radio" id="no" value="no" name="receive-daily-prompts">
+            <br>
+            <label for="preferences">What type of retreat or meetup would be your preference?</label>
+            <br>
             <input type="radio" id="weekly-meetups" value="weekly-meetups" name="preferences">
             <lablel for="weekly-meetups">Weekly Meetups</lablel>
             <input type="radio" id="weekend-retreats" value="weekend-retreats" name="preferences">
             <lablel for="weekend-retreats">Weekend Retreats</lablel>
             <input type="radio" id="day-retreats" value="day-retreats" name="preferences">
             <lablel for="day-retreats">One Day Retreats</lablel>
-
-
-            <textarea name="further-information" id="further-information" placeholder="Is there anything else
-                you would like to share with us" rows="20" cols="20"></textarea>
-
-
+            <br>
+            <textarea name="further-information" id="further-information"
+                placeholder="Is there anything else you would like to share with us?" rows="10" cols="40"
+                class="input"></textarea>
         </form>
     </section>
 

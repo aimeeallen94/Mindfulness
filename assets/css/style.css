@@ -221,10 +221,32 @@ footer {
 /* Sign Up Form */
 
 #signup-form {
-    height: 400px;
+    height: 800px;
     width: 100%;
+    clear: both;
 
-    background: url(../images/events-image.jpg);
+    background: url(../images/form.jpg);
     background-size: cover;
     background-position: center;
+    overflow: hidden;
+}
+
+#form {
+    margin: 150px 10px 10px 10px;
+    max-height: 500px;
+    max-width: 500px;
+    left: 60%;
+    position: absolute;
+    padding: 20px;
+
+    background-color: rgba(191, 219, 247, 0.8);
+    color: #717D7E;
+    font-size: 120%;
+    line-height: 1.5;
+}
+
+.input {
+    background: transparent;
+    text-align: left;
+    border: 1px solid #717D7E;
 }
