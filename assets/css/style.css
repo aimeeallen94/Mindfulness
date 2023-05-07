@@ -82,7 +82,7 @@ h2 {
 }
 
 #image-outer {
-    height: 500px;
+    height: 600px;
     width: 100%;
     overflow: hidden;
 
@@ -117,13 +117,20 @@ h2 {
     position: absolute;
 }
 
+/* inserting video*/
+
+video {
+    height: 600px;
+    width: 100%;
+}
+
 body {
     font-family: Montserrat, sans-serif;
 }
 
 #reasons {
     height: 500px;
-    margin: 15px;
+    margin: 15px 0 15px 0;
     padding: 10px;
 
     background-color: rgba(191, 219, 247, 0.8);
@@ -185,12 +192,6 @@ footer {
 
 /* events image */
 
-.page-two {
-    margin: 15px;
-    border: 15px;
-}
-
-
 #events {
     background-image: url(../images/events-image.jpg);
     background-repeat: no-repeat;
@@ -216,6 +217,12 @@ footer {
 
 #quote {
     font-size: 150%;
+    text-align: center;
+}
+
+#email-contact {
+    text-align: center;
+    font-size: 120%;
 }
 
 /* Sign Up Form */
@@ -254,5 +261,7 @@ footer {
 
 .submit {
     background: transparent;
-    border: 1px solid #717D7E
+    border: 1px solid #717D7E;
+    display: block;
+    padding: 10px 20px 10px 20px;
 }
