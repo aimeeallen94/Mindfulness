@@ -11,3 +11,4 @@ used inline css styling to keep each reason box an equal size being 25% width of
 Styled h3 headers of each each by centering allowing the reaons to look sperate
 used fotn awesome icons to style footer with social media links 
 Video free code camp troubleshooting to change watch in url to embed as youtube was stating refure to connect 
+https://stackoverflow.com/questions/32426401/embeded-youtube-video-error share>embed 
