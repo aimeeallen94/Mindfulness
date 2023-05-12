@@ -320,6 +320,10 @@ footer {
         font-size: 100%;
     }
 
+    #events {
+        width: 100%;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 900px) {
@@ -329,15 +333,27 @@ footer {
         margin-top: 20px;
         margin-left: 20px;
         margin-bottom: 20px;
-
-        text-align: center;
+        display: flex;
+        justify-content: center;
         line-height: 40px;
+    }
+
+    #reasons {
+        width: 100%;
+        clear: both;
     }
 
     #menu {
         width: 100%;
         clear: both;
 
-        flex: 100%;
+        display: flex;
+        justify-content: center;
     }
+
+    #events {
+        width: 100%;
+        clear: both;
+    }
+
 }
