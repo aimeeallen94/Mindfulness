@@ -289,8 +289,22 @@ footer {
 /* Media Queries  1350px and below*/
 
 @media screen and (max-width: 1350px) {
+    /*#index-body {
+        max-width: 100%;
+        position: relative;
+        overflow: hidden;
+        margin: 0 auto;
+
+        display: flex;
+        flex-wrap: wrap;
+
+        clear: both;
+    }*/
+
     #reasons {
         width: 100%;
+        padding: 0;
+
         height: 700px;
         margin: 0 auto;
     }
@@ -315,9 +329,11 @@ footer {
         text-align: center;
     }
 
-    #form {
+    #signup-form {
         height: 700px;
         font-size: 100%;
+        clear: both;
+        overflow: hidden;
     }
 
     #events {
