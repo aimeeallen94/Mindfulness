@@ -352,6 +352,7 @@ footer {
         display: flex;
         justify-content: center;
         line-height: 40px;
+        text-align: center;
     }
 
     #reasons {
@@ -363,8 +364,12 @@ footer {
         width: 100%;
         clear: both;
 
+        margin-top: 20px;
+        margin-left: 20px;
+        margin-bottom: 20px;
         display: flex;
         justify-content: center;
+        text-align: center;
     }
 
     #events {
@@ -372,4 +377,70 @@ footer {
         clear: both;
     }
 
+    #signup-form {
+        background-image: none;
+    }
+
+    #form {
+        width: 100%;
+        min-width: fit-content;
+        height: 600px;
+        margin: 0 auto;
+        padding: 5px;
+        text-align: center;
+    }
+
+
+    @media screen and (max-width: 500px) {
+        #reasons {
+            width: 100%;
+            clear: both;
+            height: 1200px;
+            font-size: 50%;
+        }
+
+        #reasons-one,
+        #reasons-two,
+        #reasons-three,
+        #reasons-four {
+            font-size: 10%;
+        }
+
+        #logo {
+            font-size: 95%;
+            text-align: center;
+            line-height: 40px;
+            margin-bottom: 5px;
+        }
+
+        #menu {
+            font-size: 80%;
+            letter-spacing: 2px;
+            text-align: center;
+            margin-left: 5px;
+            margin-bottom: 5px;
+            padding-right: 10px;
+            line-height: 40px;
+        }
+
+        .social-media-links i {
+            font-size: 90%;
+        }
+
+        #quote {
+            font-size: 100%;
+        }
+
+        #events {
+            font-size: 85%;
+        }
+
+        #events h2 {
+            font-size: 100%;
+        }
+
+        h3 {
+            font-size: 100%;
+        }
+    }
 }
