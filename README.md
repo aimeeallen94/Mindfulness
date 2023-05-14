@@ -80,7 +80,7 @@ The concept of this website was to maintain a mindful design theme to further en
 ## Credits
 - The set up and design of this website was based upon the Love Running and Coding Club webpages in order to get this website up and running. From there I applied my own style and design ideas.
 - My tutor told me about the Flex function and [Flexbox Froggy](https://flexboxfroggy.com/) to use instead of the float function whcch greatly helped with the styling of the Reasons to Practise sextion. I used [this](https://www.w3schools.com/css/css3_flexbox.asp) W3 Schools Flexbox tutorial to learn how to apply this styke rule.
-- I used [this thread](https://stackoverflow.com/questions/32426401/embeded-youtube-video-error) from Stack Overflow to embed the video in the webpage as I was having difficulty getting to work when attempting to copy and paste video link into an iframe tag.
+- I used [this thread](https://stackoverflow.com/questions/32426401/embeded-youtube-video-error) from Stack Overflow to embed the video in the webpage as I was having difficulty getting to work when attempting to copy and paste video link into an video tag.
 
 Researched CSS ideas to change list order but was uncuccessful in working this out. Tried creating ids for each list item and setting them to order with their corresponding place but this was unsuccessful.
 Styled nav elements and logo image using animation with the image zooming in once the website is opened. Rule wasn't working at the start but I had missed a ";" on the line above the animation rule starting!

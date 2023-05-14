@@ -164,7 +164,7 @@ body {
 
 }
 
-#reasons-header {
+.reasons-header {
     border-bottom: solid 1px #565F60;
 }
 
@@ -471,7 +471,7 @@ footer {
             padding: 5px;
         }
 
-        iframe {
+        video {
             width: 100%;
         }
 
