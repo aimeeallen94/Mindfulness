@@ -27,6 +27,18 @@ The concept of this website was to maintain a mindful design theme to further en
 
 ![What is Mindfulness Section](/assets/images-readme/what-is-mindfulness.jpg)
 
+## Reasons to Practise Mindfulness Section
+- This section consists of four main reasons to practise mindfulness as well as a small explanation for each. 
+- This section maintains the design of the rest of the webpage by using the same font and background colour.
+- The Flex property was used for the styling of this section which made it possible for each of the four reasons to sit alongside one another each taking up the same width of the screen(25%). This was proving next to impossible to achieve while using the Float property so the Flex property really helped here.
+- The layout of this section was also changed for smaller screen sizes which changed the four vertical columns to four horizontal rows. This allowed for the size of the text here to not be dramatically reduced to keep them in column format and therefore allowed these to be easily read on smaller screen sizes. 
+
+### Screens larger than 1350px
+![Reasons Section](/assets/images-readme/reasons.png)
+
+### Screens of 1350px and below
+![Reasons Section with Media Queries](/assets/images-readme/reasons-media-query.jpg)
+
 ## Meditation Video Section
 
 - This video is a brief meditation which provides users of the website with a taster of what to expect as they embark on their mindfulness journey.
@@ -72,11 +84,17 @@ The concept of this website was to maintain a mindful design theme to further en
 - I confirmed that this site is easily accessible and that header and footer links are in proper working order.
 - I tested the video on the homepage and it works perfectly.
 - The form functions as required and both radio buttons and the submit button function as they should.
+- I found the media queries challenging and found I did spend a lot of time on DevTools to resolve these issues whether it be amending text side or adding or reducing padding as well as the height of areas. I found this a particular challenge with the navigation bar as I wanted to keep both the logo and the navigation links on the same line as the srreen got smaller, however, the practicalities of that were not feasible and it would not have made for a very accessible navigation bar. I am glad I changed the layout to have the logo on one line and for the remaining navigation links to be on the next line instead. By doing this both lines remained large enough to bl clearly read and maintained their integrity.
+![Media Query Navigation](/assets/images-readme/media-query-header.jpg)  
+- I had an issue with the sizing of the sign up form as I completed the media queries for use on smaller screens. I could not get the position of the form to stay in such a way that the background image and the form coukd both be clearly seen. I decided then that I would change the layout of this page for smaller screen sizes for the form to take up 100% of the width of the page and to allow the background image to be seen at the top and bottom of the screen as well as what could be seen through the opacity of the form. I spoke with my tutor about my issues in achieving this but we came to a good resolution for the webapge. I feel this deicision was for the best as the accessibility of the form would have been greatly reduced if it had to dramatically reduce in size.
 
 ### Validator Testing
 
 - I tested this webpage on Lighthouse and it scored high across all criteria including performance and accessibility.
 ![Lighthouse Testing Score](/assets/images-readme/lighthousetesting.png)
+- I tested this website on the W3C Markup Validation Service and only one issue was highlighted which was the use of an iframe element to insert the video to the webpage instead of using CSS to do the same. I looked into this and found that for this particular video hosted on YouTube, the best way to display it would be by using an iframe tag. It can be seen within the website working without any major issue. 
+- I tested thes website on the Jigsaw W3C CSS Validator and no errors were found.
+![Jigsaw Testing Score](/assets/images-readme/jigsaw-testing.jpg)
 
 ## Technologies Used
 
@@ -88,10 +106,3 @@ The concept of this website was to maintain a mindful design theme to further en
 - The set up and design of this website was based upon the Love Running and Coding Club webpages in order to get this website up and running. From there I applied my own style and design ideas.
 - My tutor told me about the Flex function and [Flexbox Froggy](https://flexboxfroggy.com/) to use instead of the float function which greatly helped with the styling of the Reasons to Practise section to get the each reason to take up 25% of the width of the screen. I used [this](https://www.w3schools.com/css/css3_flexbox.asp) W3 Schools Flexbox tutorial to learn how to apply this style rule.
 - I used [this thread](https://stackoverflow.com/questions/32426401/embeded-youtube-video-error) from Stack Overflow to embed the video in the webpage as I was having difficulty getting to work when attempting to copy and paste video link into an iframe tag.
-
-
-Researched CSS ideas to change list order but was uncuccessful in working this out. Tried creating ids for each list item and setting them to order with their corresponding place but this was unsuccessful.
-Styled nav elements and logo image using animation with the image zooming in once the website is opened. Rule wasn't working at the start but I had missed a ";" on the line above the animation rule starting!
-Styled hero image with zoom in once page is clicked, tried to style zoom out image once clicked but this left white panels on either side of image so decided to go with zoom out instead.
-Video free code camp troubleshooting to change watch in url to embed as youtube was stating refure to connect 
-https://stackoverflow.com/questions/32426401/embeded-youtube-video-error share>embed 

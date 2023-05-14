@@ -66,9 +66,7 @@ h2 {
     /* applying animation to mindful way image*/
     animation-name: image-zoom;
     animation-duration: 5s;
-    animation-fill-mode: forwards;
-
-
+    animation-fill-mode: forwards
 }
 
 /* creating rule for hero image zoom out once page is opened */
@@ -101,7 +99,6 @@ h2 {
     text-transform: uppercase;
     letter-spacing: 3px;
     text-align: center;
-
 
     width: 300px;
     height: 200px;
@@ -161,7 +158,6 @@ body {
 
     padding-top: 10px;
     padding-bottom: 20px;
-
 }
 
 .reasons-header {
@@ -230,7 +226,6 @@ footer {
     padding: 10px;
     background-color: rgba(0, 0, 0, 0.4);
     letter-spacing: 3px;
-
 }
 
 #quote {
@@ -298,7 +293,6 @@ footer {
     #reasons {
         width: 100%;
         padding: 0;
-
         height: 700px;
         margin: 0 auto;
     }
@@ -365,7 +359,6 @@ footer {
 
     #menu {
         clear: both;
-
         margin-top: 10px;
         margin-left: 20px;
         margin-bottom: 10px;
@@ -394,7 +387,6 @@ footer {
         position: relative;
         top: 100px;
         left: 0;
-
     }
 }
 
