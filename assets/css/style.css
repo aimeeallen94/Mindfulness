@@ -270,6 +270,11 @@ footer {
     line-height: 1.5;
 }
 
+#form h2 {
+    font-size: 110%;
+    text-align: center;
+}
+
 .input {
     background: transparent;
     text-align: left;
@@ -289,7 +294,7 @@ footer {
 /* Media Queries  1350px and below*/
 
 @media screen and (max-width: 1350px) {
-    
+
     #reasons {
         width: 100%;
         padding: 0;
@@ -326,11 +331,17 @@ footer {
         overflow: hidden;
     }
 
+    #form h2 {
+        font-size: 100%;
+    }
+
     #events {
         width: 100%;
         margin: 0 auto;
     }
 }
+
+/* Media Queries 900px and below */
 
 @media screen and (max-width: 900px) {
     #logo {
@@ -386,11 +397,13 @@ footer {
 
     }
 
+    /* Media Queries 770px and below */
+
     @media screen and (max-width: 770px) {
         #reasons {
             width: 100%;
             clear: both;
-            height: 850px;
+            height: 880px;
             font-size: 85%;
         }
 
@@ -399,93 +412,100 @@ footer {
             height: 620px;
         }
 
-    @media screen and (max-width: 500px) {
-        #reasons {
-            width: 100%;
-            clear: both;
-            height: 900px;
-            font-size: 65%;
-        }
-
-        #logo {
-            font-size: 95%;
-            text-align: center;
-            line-height: 35px;
-            margin-top: 10px;
-            margin-bottom: 10px;
-            padding: 0;
-        }
-
-        #menu {
-            font-size: 75%;
-            letter-spacing: 2px;
-            text-align: center;
-            margin-top: 10px;
-            margin-left: 5px;
-            margin-bottom: 10px;
-            padding-right: 5px;
-            line-height: 35px;
-        }
-
-        #image-outer {
-            width: 100%;
-        }
-
-        #mindful-way-image {
-            width: 100%;
-            object-fit: cover;
-        }
-
-        #image-message {
-            width: 250px;
-            height: 180px;
-            padding-top: 5px;
-            padding-bottom: 5px;
-            left: 30px;
-            top: 50px;
-            font-size: 80%;
-        }
-
         #video {
             width: 100%;
-            padding: 5px;
+            clear: both;
         }
 
-        iframe {
-            width: 100%;
-        }
+        /* Media Queries 500px and below */
 
-        .social-media-links i {
-            font-size: 90%;
-        }
+        @media screen and (max-width: 500px) {
+            #reasons {
+                width: 100%;
+                clear: both;
+                height: 880px;
+                font-size: 65%;
+            }
 
-        #quote {
-            font-size: 90%;
-        }
+            #logo {
+                font-size: 95%;
+                text-align: center;
+                line-height: 35px;
+                margin-top: 10px;
+                margin-bottom: 10px;
+                padding: 0;
+            }
 
-        #events {
-            font-size: 80%;
-        }
+            #menu {
+                font-size: 75%;
+                letter-spacing: 2px;
+                text-align: center;
+                margin-top: 10px;
+                margin-left: 5px;
+                margin-bottom: 10px;
+                padding-right: 5px;
+                line-height: 35px;
+            }
 
-        #events h2 {
-            font-size: 100%;
-        }
+            #image-outer {
+                width: 100%;
+            }
 
-        #email-contact {
-            font-size: 90%
-        }
+            #mindful-way-image {
+                width: 100%;
+                object-fit: cover;
+            }
 
-        h3 {
-            font-size: 100%;
-        }
+            #image-message {
+                width: 250px;
+                height: 180px;
+                padding-top: 5px;
+                padding-bottom: 5px;
+                left: 30px;
+                top: 50px;
+                font-size: 80%;
+            }
 
-        #form {
-            height: 560px;
-            font-size: 100%;
-        }
+            #video {
+                width: 100%;
+                padding: 5px;
+            }
 
-        #signup-form h3 {
-            font-size: 110%;
+            iframe {
+                width: 100%;
+            }
+
+            .social-media-links i {
+                font-size: 90%;
+            }
+
+            #quote {
+                font-size: 90%;
+            }
+
+            #events {
+                font-size: 80%;
+            }
+
+            #events h2 {
+                font-size: 100%;
+            }
+
+            #email-contact {
+                font-size: 90%
+            }
+
+            h3 {
+                font-size: 100%;
+            }
+
+            #form {
+                height: 560px;
+                font-size: 105%;
+            }
+
+            #form h2 {
+                font-size: 85%;
+            }
         }
     }
-}
