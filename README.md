@@ -101,13 +101,6 @@ The concept of this website was to maintain a mindful design theme to further en
 - All code for this website is written in HTML5 and CSS3.
 - The libraries and frameworks used for improved interaction, functionality and design were Font Awesome, Google Fonts, Coloors, Am I Responsive, GitHub and Codeanywhere.
 
-## Credits
-
-- The set up and design of this website was based upon the Love Running and Coding Club webpages in order to get this website up and running. From there I applied my own style and design ideas.
-- My tutor told me about the Flex function and [Flexbox Froggy](https://flexboxfroggy.com/) to use instead of the float function which greatly helped with the styling of the Reasons to Practise section to get the each reason to take up 25% of the width of the screen. I used [this](https://www.w3schools.com/css/css3_flexbox.asp) W3 Schools Flexbox tutorial to learn how to apply this style rule.
-- I used [this thread](https://stackoverflow.com/questions/32426401/embeded-youtube-video-error) from Stack Overflow to embed the video in the webpage as I was having difficulty getting to work when attempting to copy and paste video link into an iframe tag.
-- The images in this website were taken from [Pexels](https://www.pexels.com/).
-
 ## Unfixed Bugs
 - No unfixed bugs within the code. 
 
@@ -122,3 +115,10 @@ The concept of this website was to maintain a mindful design theme to further en
   - Select *Save*
   - It may take a few moments for the wedpage to be deployed and for a box to appear under GitHub pages but once it appears the link can be copied and used as needed.
   - The live link can be found [here - The Mindful Way](https://aimeeallen94.github.io/Mindfulness/)
+
+## Credits
+
+- The set up and design of this website was based upon the Love Running and Coding Club webpages in order to get this website up and running. From there I applied my own style and design ideas.
+- My tutor told me about the Flex function and [Flexbox Froggy](https://flexboxfroggy.com/) to use instead of the float function which greatly helped with the styling of the Reasons to Practise section to get the each reason to take up 25% of the width of the screen. I used [this](https://www.w3schools.com/css/css3_flexbox.asp) W3 Schools Flexbox tutorial to learn how to apply this style rule.
+- I used [this thread](https://stackoverflow.com/questions/32426401/embeded-youtube-video-error) from Stack Overflow to embed the video in the webpage as I was having difficulty getting to work when attempting to copy and paste video link into an iframe tag.
+- The images in this website were taken from [Pexels](https://www.pexels.com/).
